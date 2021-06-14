@@ -97,7 +97,6 @@ def interview_pitches():
 
     return render_template("interview_pitches.html", pitches=pitches)
 
-
 @main.route('/pitches/product_pitches')
 def product_pitches():
 
@@ -157,3 +156,10 @@ def user_pitches(uname):
     user_joined = user.date_joined.strftime('%b %d, %Y')
 
     return render_template("profile/pitches.html", user=user, pitches=pitches, pitches_count=pitches_count, date=user_joined)
+
+
+
+
+
+
+    
