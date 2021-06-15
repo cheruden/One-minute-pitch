@@ -8,7 +8,6 @@ class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY')
     MAIL_USERNAME= 'cheruden25@gmail.com'
     MAIL_PASSWORD= '0723056032Aa'
-    # SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:cheru001@localhost/minutepitch'
 
     UPLOADED_PHOTOS_DEST = 'app/static/photos'
 

@@ -11,7 +11,7 @@ The pitches should be arranged by category and the new posts should be displayed
 Behaviour                                 | Given                     | Output                                  |
 ------------------------------------------|---------------------------|-----------------------------------------|
 Display categories based on a single source | category on the input form         | Display all categories; in my case i have three categories            |
-Read an article on its url page           | CLick 'create pitch' button  | Redirect to register form where you submit your details before you login |
+Read an article on its url page           | CLick 'create pitch' button  | Redirect to register form where you submit your details before you login | you will then be redirected to a page where you can add your pitch, upvote,downvote and even leave out a comment.
 
 ### LIVE PREVIEW
 Here is a working live demo: https://xxxxxx.herokuapp.com/
