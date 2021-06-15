@@ -42,16 +42,14 @@ To fix a bug or enhance an existing module, follow these steps:
 - Create a Pull Request
 
 ## Bug / Feature Request
-If you find a bug, kindly open an issue [here](https://github.com/cheruden/flask-latest-newshighlights/issues/new)
+If you find a bug, kindly open an issue [here](https://github.com/cheruden/one-minute-pitch/issues/new)
 
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/cheruden/flask-latest-newshighlight/issues/new).
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/cheruden/one-minute-pitch/issues/new).
 
 # Built with
-1. [Flask](http://flask.pocoo.org/) - For both backend and fronted.
-1. [News API](https://newsapi.org/). News API provides a wonderful API that allows you to search worldwide news articles and headlines from all over the web in real-time.
+1. [Flask](http://flask.pocoo.org/) - For both backend and fronted
 
-## GIKO Management Team 
-### Karangu Lucas Wairore 
+### Dennis Kipkorir Cheruiyot 
 ####    Aspiring full-stack developer
 
 [MIT License](LICENSE)
