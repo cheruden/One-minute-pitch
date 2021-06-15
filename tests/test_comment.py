@@ -6,7 +6,7 @@ import unittest
 class CommentModelTest(unittest.TestCase):
     def setUp(self):
         self.user_moringa = User(
-            username='cherudeno', password='potato', email='cheruden25.com')
+            username='moringa', password='potato', email='james@ms.com')
         self.new_pitch = Pitch(id=1, pitch_title='Test', pitch_content='This is a test pitch',
                                category="interview", user=self.user_moringa, likes=0, dislikes=0)
         self.new_comment = Comment(
