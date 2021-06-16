@@ -14,19 +14,19 @@ Display categories based on a single source | category on the input form        
 Read an article on its url page           | CLick 'create pitch' button  | Redirect to register form where you submit your details before you login | you will then be redirected to a page where you can add your pitch, upvote,downvote and even leave out a comment.
 
 ### LIVE PREVIEW
-Here is a working live demo: https://xxxxxx.herokuapp.com/
+Here is a working live demo: https://one-minute-pitch001.herokuapp.com/
 
 #### SITE
 
 ##### Landing Page
-At the [homepage](https://latest-xxxx.herokuapp.com/), the user is able to see various news sources
+At the [homepage](https://one-minute-pitch001.herokuapp.com/), the user is able to see various news sources
 
 
 
 
 
 
-# [Usage](https://xxxx.herokuapp.com/)
+# [Usage](https://one-minute-pitch001.herokuapp.com/)
 
 ## Development
 Want to contribute? Great!
