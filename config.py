@@ -5,9 +5,9 @@ class Config:
     '''
     General configuration parent class
     '''
-    SECRET_KEY = os.environ.get('SECRET_KEY')
-    MAIL_USERNAME= 'cheruden25@gmail.com'
-    MAIL_PASSWORD= '0723056032Aa'
+    # SECRET_KEY = os.environ.get('SECRET_KEY')
+    # MAIL_USERNAME= 'cheruden25@gmail.com'
+    # MAIL_PASSWORD= '0723056032Aa'
 
     UPLOADED_PHOTOS_DEST = 'app/static/photos'
 
@@ -19,18 +19,15 @@ class Config:
     MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
 
     # simple mde  configurations
-    SIMPLEMDE_JS_IIFE = True
-    SIMPLEMDE_USE_CDN = True
+    # SIMPLEMDE_JS_IIFE = True
+    # SIMPLEMDE_USE_CDN = True
 
 
 class ProdConfig(Config):
-    '''
-    Production  configuration child class
-
-    Args:
-        Config: The parent configuration class with General configuration settings
-    '''
-SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
+    SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL", "")
+    if SQLALCHEMY_DATABASE_URI.startswith("postgres://"):
+        SQLALCHEMY_DATABASE_URI = SQLALCHEMY_DATABASE_URI.replace(
+            "postgres://", "postgresql://", 1)
 
 class TestConfig(Config):
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:cheru001@localhost/minutepitch_test'
